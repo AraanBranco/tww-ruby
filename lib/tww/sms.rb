@@ -1,4 +1,4 @@
-module Zenvia
+module TWW
   class Sms
     include Base
 

@@ -14,13 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "zenvia-ruby"
-  gem.homepage = "http://github.com/leonelmorais/zenvia-ruby"
+  gem.name = "tww-ruby"
+  gem.homepage = "http://github.com/araanbranco/tww-ruby"
   gem.license = "MIT"
-  gem.summary = %Q{Send sms with Zenvia}
-  gem.description = %Q{ Ruby API for send sms with Zenvia}
-  gem.email = "leonel.morais@yahoo.com.br"
-  gem.authors = ["leonelmorais", "araanbranco"]
+  gem.summary = %Q{Send sms with TWW}
+  gem.description = %Q{ Ruby API for send sms with TWW}
+  gem.email = "araan666@gmail.com"
+  gem.authors = ["araanbranco"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -43,7 +43,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "zenvia-ruby #{version}"
+  rdoc.title = "tww-ruby #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

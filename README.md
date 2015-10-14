@@ -26,7 +26,7 @@ after config file created, you should define config params:
 
 require 'tww'
 
-Zenvia.configure do |config|
+TWW.configure do |config|
   config.numUser	= 'YOUR TWW NUMBER USER'
   config.password 	= 'YOUR TWW PASSWORD'
 end
