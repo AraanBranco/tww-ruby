@@ -1,12 +1,10 @@
-module Zenvia
+module TWW
   class Configuration
-    attr_accessor :account, :code, :dispatch, :from
+    attr_accessor :numUser, :password
 
     def initialize
-      @account  = ''
-      @code     = ''
-      @dispatch = ''
-      @from     = ''
+      @numUser  = ''
+      @password     = ''
     end
   end
 

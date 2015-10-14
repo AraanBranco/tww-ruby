@@ -6,7 +6,7 @@ module TWW
       include Rails::Generators::Migration
       source_root File.expand_path('../templates', __FILE__)
 
-      def zenvia_initializer
+      def tww_initializer
         copy_file 'tww.rb', 'config/initializers/tww.rb'
       end
     end
