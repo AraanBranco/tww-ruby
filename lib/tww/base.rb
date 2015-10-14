@@ -11,8 +11,8 @@ module Tww
     def send_message(id_sms, message, cel)
       Net::HTTP.post_form URI(URL),
         {
-          :NumUsu => TWW.configuration.numUser
-          :Senha => TWW.configuration.password
+          :NumUsu => TWW.configuration.numUser,
+          :Senha => TWW.configuration.password,
           :SeuNum => id_sms,
           :Celular => cel,
           :Mensagem => message
