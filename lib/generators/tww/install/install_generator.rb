@@ -1,6 +1,6 @@
 require 'rails/generators/base'
 
-module TWW
+module Tww
   module Generators
     class InstallGenerator < Rails::Generators::Base
       include Rails::Generators::Migration

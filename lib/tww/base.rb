@@ -2,7 +2,7 @@
 require 'net/http'
 require 'uri'
 
-module TWW
+module Tww
   module Base
     URL = 'https://webservices.twwwireless.com.br/reluzcap/wsreluzcap.asmx/EnviaSMS'
 

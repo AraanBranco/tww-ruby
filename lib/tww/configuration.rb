@@ -1,4 +1,4 @@
-module TWW
+module Tww
   class Configuration
     attr_accessor :numUser, :password
 

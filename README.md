@@ -26,7 +26,7 @@ after config file created, you should define config params:
 
 require 'tww'
 
-TWW.configure do |config|
+Tww.configure do |config|
   config.numUser	= 'YOUR TWW NUMBER USER'
   config.password 	= 'YOUR TWW PASSWORD'
 end
@@ -41,7 +41,7 @@ require 'tww'
 
 # Sending a SMS
 
-sms = TWW::Sms.new('you-id', 'test message!', 5521999999999)
+sms = Tww::Sms.new('you-id', 'test message!', 5521999999999)
 sms.forward =>
 
 ```

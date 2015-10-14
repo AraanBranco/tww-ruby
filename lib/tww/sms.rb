@@ -1,12 +1,12 @@
-module TWW
+module Tww
   class Sms
     include Base
 
-    attr_accessor :message, :cel
+    attr_accessor :id_sms, :message, :cel
 
     def initialize(id_sms, message, cel)
       @id_sms    = id_sms
-      @message       = message
+      @message   = message
       @cel       = cel
     end
 
